@@ -1,5 +1,5 @@
 
-def delta(nums):
+def delta(nums)
 	if len(set(nums))==1:
 		return nums[0]
 	else:
@@ -216,3 +216,6 @@ for num_str in num_lines:
 	sum_ctr += delta(nums)
 
 print(sum_ctr)
+
+
+
